@@ -1,3 +1,7 @@
+# Danışmanlık yapan arkadaşlar için bilmediğiniz VMware ortamında çalışan sunucuların idrac/ilo ip 
+#  adress bilgilerini öğrenmek için aşağıdaki scripti kullabilirsiniz.
+
+
 function Get-VMHostWSManInstance {
         param (
         [Parameter(Mandatory=$TRUE,HelpMessage="VMHosts to probe")]
